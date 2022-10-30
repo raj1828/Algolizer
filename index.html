@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <!-- head -->
+  <head>
+     
+    <!-- linking style.css -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  
+  <!-- body -->
+  <body>
+    <section class="head">Algorithm Visulizer</section>
+    <section class="data-container"></section>
+    <section id="ele"></section>
+    <div style="margin: auto; width: fit-content;">
+  
+     <!-- "Generate New Array" button -->
+   <button  class="btn1" 
+           onclick="generate()" id="Button1" >
+     Generate New Array</button>   
+     
+   <!-- "Insertion Sort" button -->
+   <button class="btn2" 
+           onclick="InsertionSort(),disable()" 
+           id="Button2" >
+     Insertion Sort</button>
+    </div>    
+    <div style="margin: auto; width: fit-content;">
+  
+     <!-- "Generate New Array" button -->
+  
+   <!-- "Insertion Sort" button -->
+   <button class="btn2" style="margin-top: 12px;" 
+           onclick="SelectionSort(),disable()" 
+           id="Button3" >
+     Selection Sort</button>
+
+   <button class="btn2" style="margin-top: 12px;" 
+           onclick="CombSort(),disable()" 
+           id="Button4" >
+     Comb Sort</button>
+
+   <button class="btn2" style="margin-top: 12px;" 
+           onclick="ShellSort(),disable()" 
+           id="Button5" >
+     Shell Sort</button>
+
+     <!-- <input type="button" value="Selection Sort" onclick="SelectionSort()"> -->
+    </div>    
+    
+    
+  </body>
+  
+  <!-- linking index.js -->
+  <script src="index.js"></script>
+  <!-- <script src="selection.js"></script> -->
+</html>
