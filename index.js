@@ -424,20 +424,20 @@ function disable()
   document.getElementById("Button1")
   .disabled = true;
   document.getElementById("Button1")
-  .style.backgroundColor = "#d8b6ff";
+  .style.backgroundColor = "#F1F1F1";
   
   // To disable the button "Insertion Sort"
   document.getElementById("Button2")
   .disabled = true;
   document.getElementById("Button2")
-  .style.backgroundColor = "#d8b6ff";  
+  .style.backgroundColor = "#F1F1F1";  
 
   document.getElementById("Button3").disabled = true;
-  document.getElementById("Button3").style.backgroundColor = "#d8b6ff"; 
+  document.getElementById("Button3").style.backgroundColor = "#F1F1F1"; 
 
   document.getElementById("Button4").disabled = true;
-  document.getElementById("Button4").style.backgroundColor = "#d8b6ff";  
+  document.getElementById("Button4").style.backgroundColor = "#F1F1F1";  
 
   document.getElementById("Button5").disabled = true;
-  document.getElementById("Button5").style.backgroundColor = "#d8b6ff";  
+  document.getElementById("Button5").style.backgroundColor = "#F1F1F1";  
 }
